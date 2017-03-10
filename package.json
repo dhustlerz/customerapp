@@ -1,0 +1,18 @@
+{
+  "name": "customerapp",
+  "version": "1.0.0",
+  "description": "simple customer mnagement app",
+  "main": "app.js",
+  "scripts": {
+    "test": "testcustomerapp"
+  },
+  "author": "jp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-validator": "^3.1.2",
+    "mongojs": "^2.4.0"
+  }
+}
