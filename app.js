@@ -106,7 +106,6 @@ app.delete('/users/delete/:id', function(req, res) {
     });
 });
 
-app.listen(3007, function() {
-    console.log('server started on port 3001   ');
+app.listen(process.env.PORT || 3000, function(){
+    console.log('listening on', app.get('port'));
 });
-
