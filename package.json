@@ -6,6 +6,10 @@
   "scripts": {
     "test": "testcustomerapp"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/dhustlerz/customerapp.git"
+  },
   "author": "jp",
   "license": "ISC",
   "dependencies": {
